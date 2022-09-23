@@ -16,14 +16,14 @@ Fonts are separated by a & */
   --paragraph-font: Caveat, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #06866e;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #05642b; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #05642b  ;
+  --headline-color-on-white: #51946c;  /* headlines on a white background */ 
+  --headline-color-on-color: rgb(8, 8, 8); /* headlines on a colored background */ 
+  --paragraph-color-on-white: #486161; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: rgb(4, 4, 4); /* paragraph text on a colored background */ 
+  --paragraph-background-color: #51946c  ;
   --nav-link-color: #486161;
   --nav-background-color: #dcc88d;
-  --nav-hover-link-color: white;
+  --nav-hover-link-color: rgb(12, 12, 12);
   --nav-hover-background-color: #486161;
 }
 
