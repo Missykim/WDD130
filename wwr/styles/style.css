@@ -70,9 +70,10 @@ footer p:hover {
     color:black;
     font-size: 1.2em;
     text-decoration: underline;
-.msg p{
+}
+.msg p {
     background-color: #486161;
-    color:black;
+    color: black;
 }
 footer{
     background-color: #486161;
