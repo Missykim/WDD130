@@ -1,4 +1,4 @@
-#content {
+#container {
     max-width: 1600px; 
     margin: 0 auto;
     width: 80px;
@@ -28,6 +28,8 @@ nav :hover {
 }
 #hero-msg h1{
     text-align: center;
+    margin: 0 auto;
+
 } 
 #hero-msg h4{
     text-align: center;
