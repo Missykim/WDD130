@@ -1,7 +1,89 @@
-<body>
-    <div id="content">
-        <header>
-    . . .
-        </footer>
-    </div>
-</body>
+#container {
+    max-width: 1600px; 
+    margin: auto 0;
+    width: 80px;
+
+}
+#body {
+    background-color:#51946c;
+}
+header {
+    background-color:#51946c;
+}
+#background {
+    height: 725px;
+    height: 725px;
+    background-color: #51946c;
+    color: black;
+}
+
+nav a{
+    text-align: center;
+    color:black;
+    text-decoration: none;
+}
+nav :hover {
+    background-color: #51946c;
+    color:black;
+}
+#hero-msg h1{
+    text-align: center;
+} 
+#hero-msg h4{
+    text-align: center;
+}
+.book{
+    background-color:#486161;
+    color:black;
+    text-decoration: none;
+}
+.book:hover{
+    background-color: #e7d7a7;
+    color:black;
+}
+.join{
+    background-color: #51946c;
+    color:black;
+    text-decoration: none;
+}
+.join:hover{
+    background-color: #51946c;
+    color:black;
+}
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+.msg h2 {
+    background-color: #486161;
+    color:black;
+}
+footer p {
+    background-color: #486161;
+    color:black;
+    font-size: 1.2em;
+}
+footer p:hover {
+    background-color: #486161;
+    color:black;
+    font-size: 1.2em;
+    text-decoration: underline;
+.msg p{
+    background-color: #486161;
+    color:black;
+}
+footer{
+    background-color: #486161;
+    color:black;
+}
+footer a{
+    background-color: #486161;
+    color:black;
+    text-decoration: none;
+}
+footer a:hover{
+    color:black;
+
+}
