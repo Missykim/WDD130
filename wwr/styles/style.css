@@ -1,17 +1,18 @@
-#container {
-    max-width: 1600px; 
-    margin: 0 auto;
-    width: 80px;
+#content {
+    width: 100%; 
+    margin: auto 0 ;
 
 }
-#body {
-    background-color:#51946c;
+body {
+    background-color:white;
 }
 header {
-    background-color:#51946c;
+    background-color:#486161;
+}
+.logo { 
+    height: 100px;
 }
 #background {
-    height: 725px;
     height: 725px;
     background-color: #51946c;
     color: black;
@@ -33,6 +34,12 @@ nav :hover {
 } 
 #hero-msg h4{
     text-align: center;
+}
+#hero-img{
+    width: 100%;
+}
+.icon{
+    width: 80px;
 }
 .book{
     background-color:#486161;
@@ -62,6 +69,13 @@ main section{
     background-color: #486161;
     color:black;
 }
+.msg p {
+    background-color: #486161;
+    color: black;
+}
+.msg{
+    background-color: #486161;
+}
 footer p {
     background-color: #486161;
     color:black;
@@ -72,10 +86,6 @@ footer p:hover {
     color:black;
     font-size: 1.2em;
     text-decoration: underline;
-}
-.msg p {
-    background-color: #486161;
-    color: black;
 }
 footer{
     background-color: #486161;
