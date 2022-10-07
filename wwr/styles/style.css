@@ -1,6 +1,7 @@
 #content {
     width: 100%; 
-    margin: auto 0 ;
+    margin: 0 auto ;
+    max-width: 1600px;
 
 }
 body {
@@ -10,7 +11,7 @@ header {
     background-color:#486161;
 }
 .logo { 
-    height: 100px;
+    width: 80px;
 }
 #background {
     height: 725px;
