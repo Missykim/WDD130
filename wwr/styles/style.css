@@ -22,7 +22,7 @@ header {
 
 body {
     background-color:white;
-    font-family: Arial, sans-serif;
+    font-family: Caveat,Arial, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -48,7 +48,7 @@ nav a{
     color: #fcfbfb;
     text-align: center;
     padding: 35px;
-    font: Garamond ,Tahoma , sans-serif;;
+    font-family:Permanent Marker ,Tahoma , sans-serif;;
 }
 nav :hover {
     background-color: #435e6e;
