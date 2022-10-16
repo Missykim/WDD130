@@ -48,11 +48,11 @@ nav a{
     color: #fcfbfb;
     text-align: center;
     padding: 35px;
-    font-family:Permanent Marker ,Tahoma , sans-serif;
+    font-family: Caveat,Arial, sans-serif;
 }
 nav :hover {
     background-color: #435e6e;
-    font-family:Permanent Marker ,Tahoma , sans-serif;
+    font-family: Caveat,Arial, sans-serif;
     color:black;
     padding: 35px;
 }
@@ -62,6 +62,8 @@ nav :hover {
 #hero-msg h1{
     text-align: center;
     margin: 0 auto;
+    font-family:Permanent Marker ,Tahoma , sans-serif;
+
 } 
 #hero-msg h4{
     text-align: center;    
