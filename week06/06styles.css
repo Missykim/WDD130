@@ -1,0 +1,39 @@
+.grid-container{
+
+    font-size: 2em;
+    background-color: white;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: ;
+    text-align: center;
+    }
+
+
+
+
+.column-two{
+    background-color: grey;
+}
+.gray-space{
+    height: 66%;
+    width: 100%;
+}
+.cherries {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: rgb(112, 0, 0);
+    }
+
+.overlay-title{
+    position: absolute;
+
+    transform: translate(-50%, -50%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto auto;
+    font-size: 5em;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    z-index: 1;
+    width: 100%;
+    justify-items: center;
+}
