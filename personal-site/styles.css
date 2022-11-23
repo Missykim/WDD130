@@ -3,23 +3,26 @@
 .headline{ 
     width: 100%;
     height:20%;
-
     font-family:Verdana;
+    display: grid;
     grid-template-rows: 100px ;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     background-color: #057EA3;
-    display: flex;
     justify-content: space-around;
     
     }
 
 .logo{
     width: 100px;
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;    }
+    justify-self: left;
+    align-self: left; 
+    border-radius: 10%;
+    border: px solid black;
+}
 .title{
-    grid-column: auto;
+    grid-column: 2/3;
+    text-align: center;
+    font-size: 3em;
     }
 
 .content{
@@ -31,18 +34,59 @@
     background-color: #FCD9B6;
     }
 
+
+#table{  
+    width: 300px;
+    display: grid;
+    grid-row: 2/3;
+    grid-column:2/3;
+    align-self: center;    
+    justify-self: center;
+    border-radius: 10%;
+    border: 5px solid black;
+
+
+
+    } 
+
 #family{
     width: 300px;
     display: grid;
-    grid-row: 1/2;
+    grid-row: 2/3;
     grid-column:3/4;
+    align-self: center;    
+    justify-self: center;
+    border-radius: 10%;
+    border: black 5px;
+    border: 5px solid black;
+
     }
+
+#people{
+    width: 300px;
+    display: grid;
+    grid-row: 2/3;
+    grid-column:4/5;
+    align-self: center;    
+    justify-self: center;
+    border-radius: 10%;
+    border: 5px solid black;
+
+
+    }
+
 
 #grandma{
     width: 300px;
     display: grid;
-    grid-row: 1/2;
+    grid-row: 2/3;
     grid-column:5/6;
+    align-self: center;    
+    justify-self: center;
+    border-radius: 10%;
+    border: 5px solid black;
+
+
     }
 
 
@@ -52,43 +96,87 @@
     grid-template-columns: 1fr 2fr 1fr;
     background-color:  #FCD9B6;
     font-family:Trebuchet MS, Tahoma, sans-serif;  
+    font: #057EA3;
+
 
     }
 .buttons-links {
     grid-column:2/3;
     grid-row: 1/2;
-
+    color: black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 .tableof{
     font-family:Trebuchet MS, Tahoma, sans-serif;  
-    text-align: left;
+    text-align: center;
+    grid-column:2/3;
+    grid-row: 1/2;
+    background-color:#057EA3;
+    color:black;
+    font-size: 18px;    
+    padding: 15px 15px;
+    margin: auto;
+    border-radius: 10%;
+    border: 2px solid black;
+        
+
 
 }
 .tableof:hover{
+    font-family:Trebuchet MS, Tahoma, sans-serif;  
+    text-align: right;
+    display:grid;
+
     color: #F09537;
+  
 
 }
 #rice{   
     font-family:Trebuchet MS, Tahoma, sans-serif;  
     text-align: center;
-    grid-column:2/3;
+    grid-column:3/4;
     grid-row: 1/2;
+    background-color:#057EA3;
+    color:black;
+    font-size: 18px;    
+    padding: 15px 15px;
+    margin: auto;
+    border-radius: 10%;
+    border: 2px solid black;
+    align-self: left;    
+
+
 
 }
 
 #rice:hover{
     font-family:Trebuchet MS, Tahoma, sans-serif;  
-    text-align: center;
-
+    text-align: right;
+    display:grid;
+    color: #F09537;
+     
 }
 
 #cinnamon{    
     font-family:Trebuchet MS, Tahoma, sans-serif;  
+    text-align: center;
+    grid-column:1/2;
+    grid-row: 1/2;
+    background-color:#057EA3;
+    color:black;
+    font-size: 18px;    
+    padding: 15px 15px;
+    margin: auto;
+    border-radius: 10%;
+    border: 2px solid black;
+}
+
+#cinnamon:hover{
+    font-family:Trebuchet MS, Tahoma, sans-serif;  
     text-align: right;
     display:grid;
-
+    color: #F09537;
 }
 
 #main-paragraph{
@@ -97,7 +185,9 @@
     grid-row: 2/3;
     grid-column:2/3;
     text-align: center;
-    padding: 50px;
+    align-self: center;    
+    justify-self: center;
+    margin: 200px;
 
 }
 #bread{
@@ -106,6 +196,10 @@
     display: grid;
     grid-row: 1/4;
     grid-column:3/4 ;
+    border-radius: 10%;
+    border: 5px solid black;
+
+
     }
 #pasta{
     margin: auto;
@@ -113,11 +207,32 @@
     display: grid;
     grid-row: 1/4;
     grid-column:1/2;
-    }
+    border-radius: 10%;
+    border: 5px solid black;
+}
+.main-pics{
+    margin: auto;
+    width: 300px;
+    display: grid;
+    border-radius: 10%;
+    border: 5px solid black;
+
+}
 footer {
+    display: flex;
+    justify-content: center;
     padding: 50px;
     font-family:Trebuchet MS, Tahoma, sans-serif;  
     background-color:#37C4F0 ;
     text-align: center;
+    margin: auto;
 
     }
+.foot{
+    background-color:#057EA3;
+    color:black;
+    font-size: 18px;    
+    padding: 15px 15px;
+    border-radius: 10%;
+    border: 2px solid black;
+   }
