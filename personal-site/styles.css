@@ -219,8 +219,8 @@
 .sub-page {
     display: grid;
     grid-template-columns:50px 2fr 1fr 1fr 50px ;
-    grid-template-rows:50px 125px 125px 125px 125px 125px;
-    
+    grid-template-rows: 1fr;
+    height: 100%;
     background-color: #FCD9B6;
     }
 
@@ -262,15 +262,15 @@
     margin-right: 50px;
     font-family:Trebuchet MS, Tahoma, sans-serif;  
     display: grid;
-    grid-row: 2/3;
     grid-column:2/3;
+    grid-row: 1/1;
 }
 .recipe-history{
 
 }
 .cin-wrapper{
     grid-column: 3/4;
-    grid-row: 2/3;
+    grid-row: 1/1;
     position: relative;
     width: 457px ;
     height:572px;
@@ -281,11 +281,11 @@
 .cin-wrapper img{
     border-radius: 10%;
     grid-column: 3/4;
-    grid-row: 2/3;
+    grid-row: 1/1;
 }
  .rice-wrapper{   
     grid-column: 3/4;
-    grid-row: 2/3;
+    grid-row: 1/1;
     position: relative;
     width: 457px ;
     height:572px;
@@ -298,6 +298,8 @@
     border-radius: 10%;
     width: 457px ;
     height:572px;
+    grid-column: 3/4;
+    grid-row: 1/1;
  }
 
 .delectable{
@@ -331,9 +333,6 @@
     justify-content: center;
     align-items: center;
     border-radius: 10%;
-        grid-column: 3/4;
-    grid-row: 2/3;
-  
 }
 
 .cin-wrapper:hover .yummy {
